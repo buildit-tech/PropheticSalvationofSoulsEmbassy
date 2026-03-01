@@ -1,0 +1,328 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background: purple;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: gold;
+    text-decoration: none;
+}
+
+/* HERO */
+
+.hero {
+    background: url('../images/church.jpg') center/cover no-repeat;
+    height: 80vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn {
+    background: gold;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+}
+
+/* SERVICES */
+
+.services {
+    padding: 40px;
+    text-align: center;
+}
+
+.service-box {
+    margin: 20px;
+}
+
+/* PASTOR */
+
+.pastor {
+    background: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+}
+
+/* CTA */
+
+.cta {
+    background: purple;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* WHATSAPP BUTTON */
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: green;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media(max-width:768px) {
+
+.navbar ul {
+    flex-direction: column;
+}
+
+.hero {
+    height: 60vh;
+}
+
+}
+
+.about-hero{
+background: purple;
+color: white;
+text-align: center;
+padding: 60px 20px;
+}
+
+.about-section{
+padding: 50px 20px;
+max-width: 900px;
+margin: auto;
+line-height: 1.8;
+}
+
+.gray{
+background: #f4f4f4;
+}
+
+
+.sermon-hero{
+background: purple;
+color:white;
+text-align:center;
+padding:60px 20px;
+}
+
+.sermons{
+display:grid;
+grid-template-columns: repeat(3,1fr);
+gap:20px;
+padding:40px;
+}
+
+.sermon-card{
+background:#f4f4f4;
+padding:15px;
+text-align:center;
+border-radius:8px;
+}
+
+.sermon-card iframe{
+width:100%;
+height:220px;
+border:none;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media(max-width:768px){
+
+.sermons{
+grid-template-columns:1fr;
+}
+
+}
+
+
+
+.live-hero{
+background:black;
+color:white;
+text-align:center;
+padding:60px 20px;
+}
+
+.live-container{
+text-align:center;
+padding:40px;
+}
+
+.live-video iframe{
+width:80%;
+height:450px;
+border:none;
+}
+
+.live-note{
+margin-top:15px;
+color:gray;
+}
+
+.live-socials{
+background:#f4f4f4;
+text-align:center;
+padding:40px;
+}
+
+.platforms a{
+margin:10px;
+padding:12px 20px;
+background:purple;
+color:white;
+text-decoration:none;
+border-radius:5px;
+display:inline-block;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+.live-video iframe{
+width:100%;
+height:250px;
+}
+
+}
+
+
+.giving-hero{
+background:purple;
+color:white;
+text-align:center;
+padding:60px 20px;
+}
+
+.giving-scripture{
+text-align:center;
+padding:30px;
+font-style:italic;
+background:#f4f4f4;
+}
+
+.giving-container{
+text-align:center;
+padding:40px;
+}
+
+.bank-card{
+display:inline-block;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+line-height:2;
+}
+
+.giving-thanks{
+background:black;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+.contact-hero{
+background:purple;
+color:white;
+text-align:center;
+padding:60px 20px;
+}
+
+.contact-container{
+display:flex;
+justify-content:center;
+gap:40px;
+padding:40px;
+flex-wrap:wrap;
+}
+
+.contact-info{
+max-width:400px;
+}
+
+.contact-form form{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.contact-form input,
+.contact-form textarea{
+padding:10px;
+width:300px;
+}
+
+.contact-form button{
+background:purple;
+color:white;
+border:none;
+padding:12px;
+cursor:pointer;
+}
+
+.map iframe{
+width:100%;
+height:400px;
+border:none;
+}
+
+.contact-socials{
+text-align:center;
+padding:40px;
+background:#f4f4f4;
+}
+
+.contact-socials a{
+margin:10px;
+padding:10px 15px;
+background:purple;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media(max-width:768px){
+
+.contact-container{
+flex-direction:column;
+align-items:center;
+}
+
+.contact-form input,
+.contact-form textarea{
+width:100%;
+}
+
+}
