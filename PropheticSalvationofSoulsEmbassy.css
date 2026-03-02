@@ -27,7 +27,7 @@ body {
 /* HERO */
 
 .hero {
-    background: url('../images/church.jpg') center/cover no-repeat;
+    background: url('photo_2026-03-02_18-54-56.jpg') center/cover no-repeat;
     height: 80vh;
     color: white;
     display: flex;
