@@ -328,6 +328,9 @@ width:100%;
 }
 
 .church-logo img{
-    width: 200px;
+    display: block;
+    width: 100%;
+    max-width: 250px;
     height: auto;
+    margin: 0 auto;
 }
