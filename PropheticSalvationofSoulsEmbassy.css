@@ -57,9 +57,34 @@ body {
 /* PASTOR */
 
 .pastor {
-    background: #f4f4f4;
-    padding: 40px;
-    text-align: center;
+    background-image: url(prophet_image_2026-03-04_08-21-18.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding: 200px;
+    text-align:justify;
+   
+}
+
+.text-container {
+    width: 300px;
+    text-align:center;
+}
+
+.text-container h2 {
+    color: gold;
+    
+}
+
+.text-container h3 {
+color: gold;
+
+}
+
+.text-container p {
+color: gold;
+font-weight: bold;
+
 }
 
 /* CTA */
@@ -300,6 +325,7 @@ border:none;
 text-align:center;
 padding:40px;
 background:#f4f4f4;
+
 }
 
 .contact-socials a{
@@ -309,6 +335,7 @@ background:purple;
 color:white;
 text-decoration:none;
 border-radius:5px;
+display: inline-block;
 }
 
 /* MOBILE RESPONSIVE */
