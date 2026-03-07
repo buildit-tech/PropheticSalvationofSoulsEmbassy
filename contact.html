@@ -13,7 +13,11 @@
 <!-- NAVBAR -->
 <header>
 <nav class="navbar">
-<h1>PSSE</h1>
+ <h1 class="church-logo"> 
+            <img 
+           class="church-logo-image" src="Logo_2026-03-02_19-41-43.jpg"
+           alt="Prophetic Salvation of Souls Embassy logo.">
+       </h1>
 
 <ul>
 <li><a href="index.html">Home</a></li>
@@ -61,12 +65,18 @@ Benin City, Nigeria
 
 <h3>Send Us a Message</h3>
 
-<form>
-<input type="text" placeholder="Your Name" required>
-<input type="email" placeholder="Your Email" required>
-<textarea placeholder="Your Message"></textarea>
+<form action="https://formsubmit.co/churchname@gmail.com" method="POST">
+
+<input type="hidden" name="_captcha" value="false">
+
+<input type="text" name="name" placeholder="Your Name" required>
+
+<input type="email" name="email" placeholder="Your Email" required>
+
+<textarea name="message" placeholder="Your Message" required></textarea>
 
 <button type="submit">Send Message</button>
+
 </form>
 
 </div>
